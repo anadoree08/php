@@ -75,11 +75,11 @@
 
         <?php
     
-        $numerosSorteados = [];
+        $numerosSorteados = []; // Array para armazenar os números sorteados
 
-        for ($i = 0; $i < 6; $i++) {
+        for ($i = 0; $i < 6; $i++) { // Gerar 6 números aleatórios entre 1 e 60
 
-            $numerosSorteados[] = mt_rand(1, 60);
+            $numerosSorteados[] = mt_rand(1, 60); // mt_rand é uma função mais rápida e segura para gerar números aleatórios
 
         }
 
@@ -89,9 +89,9 @@
 
             <?php
 
-            foreach ($numerosSorteados as $numero) {
+            foreach ($numerosSorteados as $numero) { // Exibir cada número sorteado em um card
 
-                echo "<div class='numero-card'>$numero</div>";
+                echo "<div class='numero-card'>$numero</div>"; // Exibe o número dentro do card
 
             }
 
