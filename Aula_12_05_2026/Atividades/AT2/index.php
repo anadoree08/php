@@ -181,7 +181,9 @@ footer { /* Estilização do rodapé */
     </div>
 
 </div>
-// Inclusão do rodapé
+<br>
+<br>
+<br>
 <?php require "footer.php"; ?>
 
 </body>
